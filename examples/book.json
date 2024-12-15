@@ -1,0 +1,78 @@
+{
+    "program": [
+        {
+            "type": "FUNCTOR",
+            "identifier": "p",
+            "subterms": [
+                {
+                    "type": "FUNCTOR",
+                    "identifier": "f",
+                    "subterms": [
+                        {
+                            "type": "VARIABLE",
+                            "identifier": "X"
+                        }
+                    ]
+                },
+                {
+                    "type": "FUNCTOR",
+                    "identifier": "h",
+                    "subterms": [
+                        {
+                            "type": "VARIABLE",
+                            "identifier": "Y"
+                        },
+                        {
+                            "type": "FUNCTOR",
+                            "identifier": "f",
+                            "subterms": [
+                                {
+                                    "type": "CONSTANT",
+                                    "identifier": "a"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "VARIABLE",
+                    "identifier": "Y"
+                }
+            ]
+        }
+    ],
+    "query": {
+        "type": "FUNCTOR",
+        "identifier": "p",
+        "subterms": [
+            {
+                "type": "VARIABLE",
+                "identifier": "Z"
+            },
+            {
+                "type": "FUNCTOR",
+                "identifier": "h",
+                "subterms": [
+                    {
+                        "type": "VARIABLE",
+                        "identifier": "Z"
+                    },
+                    {
+                        "type": "VARIABLE",
+                        "identifier": "W"
+                    }
+                ]
+            },
+            {
+                "type": "FUNCTOR",
+                "identifier": "f",
+                "subterms": [
+                    {
+                        "type": "VARIABLE",
+                        "identifier": "W"
+                    }
+                ]
+            }
+        ]
+    }
+}
